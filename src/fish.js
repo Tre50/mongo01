@@ -28,7 +28,7 @@ export async function getAllFish() {
 
 
 
-export async function deleteAFish() {
+/* export async function deleteAFish() {
     const fishDelete = await db.collection('fish').findOneAndDelete({species: 'tetra'})
 
 const myCleanId = ObjectId('652821360693d034a1999ca1')
@@ -38,7 +38,7 @@ const myCleanId = ObjectId('652821360693d034a1999ca1')
 
    console.log('fishDelete -> ', fishDelete)
     //find the fish i want delete
-} 
+} */
 
 // update Fish
 export async function updateOneFish(){
